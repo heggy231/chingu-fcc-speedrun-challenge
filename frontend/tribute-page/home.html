@@ -1,0 +1,155 @@
+<!-- we have links here therefore open terminal > python -m SimpleHTTPServer 8000 to view https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-yhiyLSLMQGPDg7RkvJJ8UV9CBKPscacAHym5PFUyc2QvaMR4dQ-->
+<!-- https://www.whitehouse.gov/1600/presidents/abrahamlincoln https://codepen.io/freeCodeCamp/full/NNvBQW https://codepen.io/heggy231/pen/RgrRJo-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>[Home]</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="styleMe.css">
+    <link rel="icon" type="image/gif" href="https://cdn.glitch.com/57bc3237-9d5f-442e-88f6-04e92041b5f7%2FpikaRun.gif?1497030320530">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<!-- nav page that persists on all my pages-->
+    <script
+    src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous">
+    </script>
+<!-- execute jQuery function to call header and footer onloading of page-->    
+
+    <script> 
+        $(function(){
+            $("#header").load("header.html"); 
+            $("#footer").load("footer.html");
+            // when header is ready please execute following handler add focus to id home
+            // important to addclass right after header is loaded 
+            $("#header").ready(function() {
+                // when click on home link > class ="focus" gets added 
+                $("#home").addClass("focus");
+            });
+        });
+
+       
+    </script> 
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="jumbotron">
+        <div id="header"></div>
+
+        <h1 class = "text-center">Abraham Lincoln is the best!</h1>
+        <h1 class= "text-center"><small>Who declared forever freedom to slaves</small></h1>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="thumbnail">
+            <div class="carousel-inner">
+                <div class="item active">
+                    <div alt="Frontal Abraham Lincoln" style="width:100%; height: 500px; background-image: url(http://americanhistory.si.edu/sites/default/files/exhibitions/lincoln_life_b.jpg); background-size: cover;"></div>
+
+                </div>
+
+                <div class="item">
+                    <div  alt="lincoln sitting" style="width:100%; height: 500px; background-image: url(https://navyseals.com/wp-content/uploads/2015/02/Lincoln_Memorial.jpg); background-size: cover;"></div>
+
+                </div>
+                
+                <div class="item">
+                    <div alt="lincoln profile" style="width:100%; height: 500px;background-image: url(http://www.politicalgarbagechute.com/wp-content/uploads/2016/05/abe.jpg); background-size: cover;"></div>
+
+                </div>
+            </div>
+            <div class = "caption text-center">Little known fact: The Sucess of Abraham Lincoln was a big suprise at the time of his election.</div>
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+<!-- look at offset col grid system-->
+
+        <h2>Five Fun Facts About Pres. Lincoln</h2>
+        <ul class="list-group">
+            <li class="list-group-item">Lincoln supported <strong>women’s rights</strong></li>
+            <li class="list-group-item">Lincoln was a licensed <strong>bartender!</strong></li>
+            <li class="list-group-item">First president to sport a <strong>beard</strong></li>
+            <li class="list-group-item">Lincoln fought in the <strong>War</strong></li>
+            <li class="list-group-item">Only president to have a <strong>patent</strong></li>
+        </ul>
+
+        <div class="panel-group" id="accordion">
+
+            <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Lincoln's Famous Quote 1</a>
+                </h4>
+            </div>
+            <div id="collapse1" class="panel-collapse collapse in">
+                <div class="panel-body">
+                    <blockquote><p>"The dogmas of the quiet past are inadequate to the stormy present"</p>
+                    <footer><cite>Speech Technique used: contrast and balance</cite></footer>
+                    </blockquote>
+                </div>
+            </div>            
+            </div>
+
+            <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Lincoln's Famous Quote 2</a>
+                </h4>
+            </div>
+            <div id="collapse2" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <blockquote><p>"Fondly do we hope—fervently do we pray"</p>
+                    <footer><cite>Speech Technique used: alliteration</cite></footer>
+                    </blockquote>
+                </div>
+            </div>
+            </div>
+
+            <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Lincoln's Famous Quote 3</a>
+                </h4>
+            </div>
+            <div id="collapse3" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <blockquote><p>"We cannot dedicate, we cannot consecrate, we cannot hallow this ground"</p>
+                    <footer><cite>Speech Technique used: repetition</cite></footer>
+                    </blockquote>
+                </div>
+            </div>
+            </div>
+
+        </div> 
+        <p class = "text-center">
+            <mark>Please   
+            <a href="http://www.smithsonianmag.com/history/ted-sorensen-on-abraham-lincoln-a-man-of-his-words-12048177/#7M9GMioZcCugCidQ.99" class="btn btn-info" role="button">click</a> to read more about President Lincoln.
+            </mark>
+        </p>
+    </div>
+</div>
+<div id="footer"></div>
+</body>
+</html>
