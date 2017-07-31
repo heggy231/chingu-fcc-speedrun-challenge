@@ -4,6 +4,9 @@
 
 Build an app that is functionally similar to this: https://codepen.io/FreeCodeCamp/full/YqLyXB/.
 
+* Demo: http://heggy.me/portfolio/
+* GitHub repo: https://github.com/heggy231/portfolio
+
 ## Requirements
 
 User Story: I can access all of the portfolio webpage's content just by scrolling.

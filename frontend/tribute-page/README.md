@@ -6,6 +6,7 @@
 * Demo page: http://heggy.me/fcc-tribute/home.html
 * I enjoy putting things together using boostrap3, jQuery, JavaScript, HTML5, CSS3.  
 * Site I visited most: https://www.w3schools.com/bootstrap/
+* My github repo: https://github.com/heggy231/fcc-tribute
 
 Build an app that is functionally similar to this: https://codepen.io/FreeCodeCamp/full/NNvBQW/.
 
