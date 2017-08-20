@@ -67,7 +67,7 @@ Copy this table as needed to make a separate table for each team member for reco
 |----------|---------|----------|
 |      | N/A| [Comprehensive Portfolio as a Single Page App](http://heggy.me/portfolio/) |   |
 | &#10004; |  [Link](https://medium.com/@heggyy/fcc-speedrun-tribute-page-92bff3117e8e)  | [Build a Tribute Page](./frontend/tribute-page) |  |
-|      |  [Link ](https://medium.com/@heggyy/my-portfolio-webpage-bc8c0fe23794)  | [Build a Personal Portfolio Webpage](./frontend/portfolio) |  |
+| &#10004; |  [Link ](https://medium.com/@heggyy/my-portfolio-webpage-bc8c0fe23794)  | [Build a Personal Portfolio Webpage](./frontend/portfolio) |  |
 |      |  [ ]()  | [Build a Random Quote Machine](./frontend/random-quote-machine) |  |
 |      |  [ ]()  | [Show the Local Weather](./frontend/local-weather) |  |
 |      |  [ ]()  | [Build a Wikipedia Viewer](./frontend/wikipedia-viewer) |  |
