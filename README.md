@@ -97,14 +97,14 @@ Copy this table as needed to make a separate table for each team member for reco
 |      |  [ ]()  | [Manage a Book Trading Club](./backend/app-book-trading) |  |
 |      |  [ ]()  | [Build a Pinterest Clone](./backend/app-pinterest-clone) |  |
 
-## UCSC EXT Projects
+## UCSC Projects
 
 Table of project demo and corresponding blog posts
 
 | Complete | Blog Post |Project  |
 |----------|---------|----------|
 |      | N/A| [Comprehensive Portfolio as a Single Page App](http://heggy.me/portfolio/) |   |
-| &#10004; |  [Link](https://living-supermarket.glitch.me/)  | [Build Photo Carousel Using jQuery Horizontal](./frontend/tribute-page) |  |
+| &#10004; |  [Link](https://medium.com/@heggyy/ucsc-jquery-carousel-image-horizontal-layout-f6c35b630172)  | [Build Photo Carousel Using jQuery Horizontal](https://living-supermarket.glitch.me/) |  |
 | &#10004; |  [Link ](https://medium.com/@heggyy/my-portfolio-webpage-bc8c0fe23794)  | [Build a Personal Portfolio Webpage](./frontend/portfolio) |  |
 |      |  [ ]()  | [Build a Random Quote Machine](./frontend/random-quote-machine) |  |
 |      |  [ ]()  | [Show the Local Weather](./frontend/local-weather) |  |
