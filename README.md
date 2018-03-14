@@ -106,6 +106,8 @@ Table of project demo and corresponding blog posts
 |      | N/A| [Comprehensive Portfolio as a Single Page App](http://heggy.me/portfolio/) |   |
 | &#10004; |  [Link](https://medium.com/@heggyy/ucsc-jquery-carousel-image-horizontal-layout-f6c35b630172)  | [Build Photo Carousel Using jQuery Horizontal](https://living-supermarket.glitch.me/) |  |
 | &#10004; |  [Link ](https://medium.com/@heggyy/my-portfolio-webpage-bc8c0fe23794)  | [Build a Personal Portfolio Webpage](./frontend/portfolio) |  |
+|  &#10004;    |  [photo filter iOS app](https://medium.com/@heggyy/lets-xcode-together-my-first-ios-app-43da6d2e433b)  | [repo photo filter](https://github.com/heggy231/PhotoFilters) |  |
+|  &#10004;    |  [tip calculator iOS app](https://github.com/heggy231/iOS-TipCalculator/blob/master/README.md)  | [Repo tip calculator](https://github.com/heggy231/iOS-TipCalculator) |  |
 |      |  [ ]()  | [Build a Random Quote Machine](./frontend/random-quote-machine) |  |
 |      |  [ ]()  | [Show the Local Weather](./frontend/local-weather) |  |
 |      |  [ ]()  | [Build a Wikipedia Viewer](./frontend/wikipedia-viewer) |  |
